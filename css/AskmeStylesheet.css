@@ -1,0 +1,27 @@
+
+.neighborhood-guides{
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    }
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+    }
+    
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom:13px;
+    }
+    
+ #resize{
+ 	display: block;
+ 	height: 150px;
+ 	width: 450px;
+ }
+ 
+ #resize2{
+ 	display: block;
+ 	height: 330px;
+ 	width: 252px;
+}

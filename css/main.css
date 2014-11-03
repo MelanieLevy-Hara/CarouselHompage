@@ -2,36 +2,47 @@
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 10px;
   text-transform: uppercase;
+}
+
+.nav ul{
+	margin: 2px;
+	display: inline;
 }
 
 .nav li {
   display: inline;
+  margin: 2px;
 }
 
 .jumbotron {
   background-image:url('https://c1.staticflickr.com/5/4055/5134434028_0d3c753733_z.jpg');
-  height: 500px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:150px;
+  margin-left: 10px;
 }
 
-.jumbotron h1 {
-  color: #fff;
+.jumbotron .container h1 {
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
+  color: #fff;
 }
 
 .jumbotron p {
   font-size: 20px;
   color: #fff;
+}
+.jumbotron a {
+  font-size: 20px;
+  color: #19A5FF;
 }
 
 .learn-more {
@@ -48,29 +59,3 @@
   color: #00b0ff;
 }
 
-.neighborhood-guides{
-    background-color: #efefef;
-    border-bottom: 1px solid #dbdbdb;
-    }
-
-.neighborhood-guides h2 {
-    color: #393c3d;
-    font-size: 24px;
-    }
-    
-.neighborhood-guides p {
-    font-size: 15px;
-    margin-bottom:13px;
-    }
-    
-#resize{
-	display: block;
-	height: 150px;
-	width: 450px;
-}
-
-#resize2{
-	display: block;
-	height: 330px;
-	width: 252px;
-}
